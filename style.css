@@ -186,7 +186,7 @@ h1{
 }
 
   h1{
-      font-size: 3rem;
+      font-size: 3.5rem;
   }
 
   .title{
@@ -195,8 +195,8 @@ h1{
 
   .gears{
     width: 13.5em;
-    margin-left: 6.5rem;
-    margin-top: 1.5rem;
+    margin-left: 7.5rem;
+    margin-top: 0rem;
 }
 
     .about-container-vh{
