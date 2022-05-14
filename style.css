@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
@@ -8,7 +11,8 @@
 
 
 body{
-    font-family: 'Chakra Petch', sans-serif;
+    /*font-family: 'Chakra Petch', sans-serif;*/
+    font-family: 'Bitter', serif;
 }
 
 .container-vh{
@@ -32,7 +36,8 @@ body{
 }
 
 ul{
-    font-family: 'Chakra Petch', sans-serif;
+    /*font-family: 'Chakra Petch', sans-serif;*/
+    font-family: 'Bitter', serif;
     list-style-type: none;
 }
 
@@ -41,7 +46,7 @@ ul{
 }
 
 .li-about{
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     margin-top: 2rem
 }
 
@@ -140,9 +145,9 @@ h1{
 }
 
 .talk-section-text{
-    font-size: 2rem;
+    font-size: 10rem;
     color: rgb(145, 145, 145);
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .form-font{
@@ -195,7 +200,7 @@ h1{
 }
 
   h1{
-      font-size: 3.5rem;
+      font-size: 4.5rem;
   }
 
   .title{
@@ -209,7 +214,7 @@ h1{
 }
 
     .about-container-vh{
-        height: 88rem;
+        height: 100rem;
         margin-bottom: 3rem;
     }
 
@@ -284,7 +289,7 @@ h1{
   }
 
   h1{
-      font-size: 4.25rem;
+      font-size: 5.3rem;
   }
 
   .gears{
@@ -294,7 +299,7 @@ h1{
 }
 
     .about-container-vh{
-        height: 82rem;
+        height: 95rem;
         margin-bottom: 3rem;
     }
 
@@ -363,21 +368,21 @@ h1{
 @media (min-width: 480px){
 
     .container-vh{
-  height: 50rem;
+  height: 46rem;
   }
 
   h1{
-      font-size: 4.25rem;
+      font-size: 6rem;
   }
 
   .gears{
-    width: 16em;
+    width: 17rem;
     margin-left: 11rem;
     margin-top: 3rem;
 }
 
     .about-container-vh{
-        height: 78rem;
+        height: 90rem;
         margin-bottom: 3rem;
     }
 
@@ -446,11 +451,11 @@ h1{
 @media (min-width: 576px){
 
     .container-vh{
-  height: 50rem;
+  height: 46rem;
   }
 
   h1{
-      font-size: 3.75rem;
+      font-size: 6rem;
   }
 
   .gears{
@@ -460,7 +465,7 @@ h1{
 }
 
     .about-container-vh{
-        height: 76rem;
+        height: 86rem;
     }
 
     .text{
@@ -525,7 +530,7 @@ h1{
 }
 
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
 
   .container-vh{
@@ -533,7 +538,7 @@ h1{
     }
   
     h1{
-        font-size: 5rem;
+        font-size: 8.25rem;
     }
   
     .gears{
@@ -543,7 +548,7 @@ h1{
   }
   
       .about-container-vh{
-          height: 50rem;
+          height: 57rem;
       }
   
       .text{
@@ -551,8 +556,8 @@ h1{
       }
 
       .me{
-          height: 35rem;
-          margin-bottom: 2rem;
+          height: 42rem;
+          margin-top:-2rem;
       }
   
       .logo{
@@ -567,6 +572,7 @@ h1{
   
       .boxing-me{
           height: 30rem;
+          margin-top: 1rem;
       }
   
       .form-font{
@@ -585,6 +591,10 @@ h1{
       .textarea-mobile{
 
       }
+
+      .talk-section-text{
+          font-size: 1.75rem;
+      }
   
       .nav-item{
           font-size: 1.25rem;
@@ -592,7 +602,7 @@ h1{
   
       .description-text{
         text-align: center;  
-        font-size: 1.5rem;
+        font-size: 1.75rem;
       }
 
   
