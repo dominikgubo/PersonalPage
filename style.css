@@ -95,6 +95,7 @@ h1{
     border-color: rgb(255, 255, 255);
     border-width: 0.125rem;
     height: 30rem;
+    margin-left: 0rem;
 }
 
 .text-align{
@@ -187,7 +188,16 @@ h1{
     font-size: 2.5rem;
 }
 
+.line{
 
+    height: 40rem;
+    margin-left: -2rem;
+}
+
+.ToDoList{
+    width: 40rem;
+    border-radius: 15rem;
+}
 
 
 
@@ -287,7 +297,7 @@ h1{
 @media (min-width: 411px){
 
     .container-vh{
-  height: 50rem;
+  height: 44rem;
   }
 
   h1{
@@ -520,15 +530,99 @@ h1{
 
 @media (min-width: 768px) {
   .container-vh{
-      height: 100vh;
+      height: 40rem;
   }
+
+  h1{
+    font-size: 5.5rem;
+}
+
+.gears{
+  width: 22rem;
+  margin-left: 0rem;
+  margin-top: 13rem;
+}
+
+  .about-container-vh{
+      height: 70rem;
+  }
+
+  .text{
+      font-size: 1.5rem;
+  }
+
+  .logo{
+      width: 4rem;
+      margin-right: 2.5rem;
+      margin-top: 4.5rem;
+  }
+
+  .services-container-vh{
+      height: 78.2rem;
+  }
+
+  .me{
+      height: 33rem;
+      margin-top: 8rem;
+      margin-left: -5rem;
+  }
+
+  .boxing-me{
+      height: 30rem;
+      margin-left: -0.25rem;
+  }
+
+  .form-font{
+      font-size: 2rem;
+  }
+
+  .li-form{
+      margin-bottom: 3rem;
+  }
+
+  .text-mobile{
+      width: 28rem;
+  }
+
+  .textarea-mobile{
+      width: 28rem;
+  }
+
+  .nav-item{
+      font-size: 1.25rem;
+  }
+
+  .description-text{
+      text-align: center;
+      font-size: 1.5rem;
+  }
+
 }
 
 
 @media (min-width: 992px) {
   .container-vh{
-      height: 100vh;
+      height: 45rem;
   }
+
+  .about-container{
+      height: 54rem;
+  }
+
+  .me{
+      margin-left: 3rem;
+      margin-top: 3rem;
+  }
+
+  .boxing-me{
+    height: 20rem;
+    margin-top: 1rem;
+}
+
+.services-container-vh{
+    height: 45rem;
+}
+
 }
 
 
@@ -554,12 +648,14 @@ h1{
       }
   
       .text{
-          font-size: 1. 5rem;
+          font-size: 1.5rem;
+
       }
 
       .me{
           height: 42rem;
-          margin-top:-2rem;
+          margin-top:-3rem;
+          margin-left: 0rem;
       }
   
       .logo{
