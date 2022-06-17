@@ -14,28 +14,29 @@
     
     
     
-    <div id="progress-bar"></div>
+    <div id="progress-bar" style="z-index: 1;"></div>
 
-    <ul class="nav container justify-content-end nav-height">
+    <ul class="nav container justify-content-end nav-height animation">
         <li class="nav-item">
-          <a class="nav-link"href="#about">About</a>
+          <a class="nav-link display"href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#talk">Contact</a>
+          <a class="nav-link display" href="#talk">Contact</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="https://www.instagram.com/dominikgubo/">@dominikgubo</a>
+          <a class="nav-link display" href="https://www.instagram.com/dominikgubo/">@dominikgubo</a>
         </li>
+        <li></li>
       </ul>
 
-    <div class="container container-vh">
+    <div class="container container-vh animation">
         <div class="row">
-            <div class="row"><div class="col-md-1 col-lg-1">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
                 <img src="./images/me-icon.png" alt="Me" class="my-icon ">
             </div>
-            <div class="col-md-2 col-lg-2" style="margin-left: -3rem; margin-top: 0.125rem;">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 front-container">
                 <ul>
-                    <li style="font-size: 1.25rem; font-weight: 500;">Dominik Gubo</li>
+                    <li style="font-weight: 600;">Dominik Gubo</li>
                     <li>Web Developer</li>
                 </ul>
             </div>
@@ -49,7 +50,7 @@
     <div class="about-container" id="about">
         <div class="container about-container-vh justify-content-center">
             <div class="row bottom-space text-align">
-                <div class="title" style="margin-top: 2rem;"> ABOUT ME </div>
+                <div class="title" style="margin-top: 3rem;"> ABOUT ME </div>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-6 img-responsive mx-auto image"><img src="images/me.png" class="me pok"></img></div>
@@ -66,24 +67,45 @@
             </div>
         </div>
     </div>
-
     <div class="services-container" id="services">
         <div class="container services-container-vh justify-content-center">
             <div class="row bottom-space text-align">
-                <div class="title" style="margin-top: 2rem;"> MY SERVICES </div>
+                <div class="title" style="margin-top: 5rem;"> MY SERVICES </div>
             </div>
             <div class="row">
-                <ul class="text-align col-12 col-sm-12 col-md-12 col-lg-12 text li-services" style="text-align: left;">
+                <ul class="text-align col-12 col-sm-12 col-md-12 col-lg-12 text li-services services-align">
                     <li class="li-services" style="font-weight: 700; font-size: larger;"><div>There are two types of services that I provide; neat web-pages and private boxing trainings.</div></li>
                     <li class="li-services"><div>With over <b>10 years</b> in boxing and <b>60+</b> amateur boxing matches, I am ready to teach you a thing or two about boxing.</div></li>
                     <li class="li-services"><div>As a student of electrical engineering and information technology major, I have some experience building web-sites. Although there is still lot to learn, I am <b>looking forward</b> to meet all of your needs.</div></li>
                     <li class="li-services"><div>I develop websites for <b>reasonable</b> prices, all for purpose of further learning, experience and sharpening my skills.</div></li>
                 </ul>   
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 serviceContainer" style="text-align: center;" ><img src="images/box2.png"></img></div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 serviceContainer" style="text-align: center;"><img src="images/favicloud2.png" class="boxing-me"></img></div>
             </div>
+
+        <div class="row justify-content-center service-text-container-space">
+                <div class="serviceContainer col-12 col-sm-12 col-md-6 col-lg-6 nopadding service-container-between">
+                    <div class="insideContainer" style="text-align: center; color: white; font-weight: 450;"><img src="./images/web-icon.png" class="service-icon" >WEB</img></div>
+                    <ul id="service-list">
+                        <li>Websites according to your needs</li>
+                        <li>CMS or Custom development</li>
+                        <li>SEO optimization</li>
+                        <li>Website maintance</li>
+                    </ul>
+                <div class="web-service-animation"></div>
             </div>
+                <div class="serviceContainer col-12 col-sm-12 col-md-6 col-lg-6 nopadding">
+                    <div class="insideContainer" style="text-align: center; color: white; font-weight: 450;"><img src="./images/box-icon.png" class="service-icon"></img>BOXING</div>
+                    <ul id="service-list">
+                        <li>One-on-one boxing trainings</li>
+                        <li>Flexible depending on your time</li>
+                        <li>Minimum 1 hour long sessions</li>
+                        <li>Stamina, strength & coordination</li>
+                    </ul>
+                    <div class="box-service-animation"></div>
+                 </div>
         </div>
+            </div>
+                
+
 
         <!-- <div class="services-container" id="services">
             <div class="container services-container-vh justify-content-center">
@@ -116,25 +138,25 @@
                 <input type="hidden" name="_captcha" value="true">
                 <input type="hidden" name="_next" value="https://dominikgubo.com/thanks.html">
             <div class="row d-flex justify-content-center">
-                <ul class="col-12 col-sm-12 col-md-5 col-lg-5" style="margin-left:5.5rem; font-size:1.25rem; text-align: center;">
-                <li>First name*</li>
-                    <li class="li-form"><input type="text" name="first-name" class="text-mobile" required></li>
-                    <li>E-mail address*</li>
-                    <li class="li-form"><input type="email" name="email" class="text-mobile" required></li>
+                <ul class="col-12 col-sm-12 col-md-5 col-lg-5" style="margin-left:5.5rem; font-size:1.25rem;">
+                <li class="li-text">First name*</li>
+                    <li class="li-form" style=" text-align: center;"><input type="text" name="first-name" class="text-mobile" required></li>
+                    <li class="li-text">E-mail address*</li>
+                    <li class="li-form" style=" text-align: center;"><input type="email" name="email" class="text-mobile" required></li>
             </ul>
             <ul class="col-12 col-sm-12 col-md-5 col-lg-5 li-services" style="margin-right:8rem; font-size:1.25rem; text-align: center;" >
                 <input type="hidden" name="_captcha" value="true">
                 <input type="hidden" name="_next" value="https://dominikgubo.com/thanks.html">
-                    <li style="text-align: left;">Last name*</li>
-                    <li class="li-form"><input type="text" name="last-name" class="text-mobile" required></li>
-                    <li>Phone number</li>
-                    <li class="li-form"><input type="email" name="phone-number" class="text-mobile"></li>
+                    <li class="li-text" style="text-align: left ;">Last name*</li>
+                    <li class="li-form" style="text-align: center;"><input type="text" name="last-name" class="text-mobile" required></li>
+                    <li class="li-text" style="text-align: left ;">Phone number</li>
+                    <li class="li-form" style="text-align: center;"><input type="email" name="phone-number" class="text-mobile"></li>
             </ul>
 
             <div>
                 <ul class="col-12 col-sm-12 col-md-12 col-lg-12" style="margin-left:9.2rem; font-size: 1.25rem;">
                     <li style="margin-left: -1.5rem;">Message</li>
-                    <li class="li-form"><textarea rows="4" cols="74" name="send-form" style="border-style: solid; border-width: 2px; border-color: black; margin-left: -1.75rem;"></textarea></li>
+                    <li class="li-form"><textarea rows="2" cols="74" name="send-form" style="border-style: solid; border-width: 2px; border-color: black; margin-left: -1.75rem; width: 59rem;"></textarea></li>
                     <li><button class="submit-button" type="submit">Submit</button></li>
                 </ul>
             </div>
