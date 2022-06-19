@@ -211,17 +211,17 @@ h1{
 
 
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes LeftToRight {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes LeftToRight {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes AnimationName {
+@keyframes LeftToRight {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
@@ -263,29 +263,11 @@ h1{
     margin-bottom: 2rem;
 }
 
-.t{
-    background-image: url(./images/box.jpg);
-    max-width: 100%;
-    width: 100%;
-    width: auto;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
 
 .service-icon{
     height: 80%;
     margin-top: -0.5rem;
     text-align: center;
-}
-
-ol{
-    font-size: 1.5rem;
-}
-
-
-.flexcina{
-    display: flex;
 }
 
 .nopadding {
@@ -296,79 +278,10 @@ ol{
     padding-top: 5rem;
 }
 
-#menu_checkbox {
-    display: none;
-  }
-  
-  label {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    left: 0;
-    display: block;
-    width: 60px;
-    height: 60px;
-    margin: -30px auto 0 auto;
-    cursor: pointer;
-  }
-  
-  label:before {
-    content: "";
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #f44336;
-    transition: 1.2s cubic-bezier(0, 0.96, 1, 0.02) background-color;
-  }
-  
-  label div {
-    position: relative;
-    top: 0;
-    height: 12px;
-    background-color: #fff;
-    margin-bottom: 12px;
-    transition: 0.3s ease transform, 0.3s ease top, 0.3s ease width,
-      0.3s ease right;
-    border-radius: 2px;
-  }
-  
-  label div:first-child {
-    transform-origin: 0;
-  }
-  
-  label div:last-child {
-    margin-bottom: 0;
-    transform-origin: 60px;
-  }
-  
-  label div:nth-child(2) {
-    right: 0;
-    width: 60px;
-  }
-  
-  #menu_checkbox:checked + label:before {
-    background-color: #4caf50;
-  }
-  
-  #menu_checkbox:checked + label div:first-child {
-    top: -6px;
-    transform: rotateZ(45deg);
-  }
-  
-  #menu_checkbox:checked + label div:last-child {
-    top: 6px;
-    transform: rotateZ(45deg);
-  }
-  
-  #menu_checkbox:checked + label div:nth-child(2) {
-    width: 85px;
-    top: 0;
-    right: 13px;
-    transform: rotateZ(-45deg);
-  }
-  
+
+.displayNav{
+    display:none;
+}
 
 
 
@@ -488,9 +401,9 @@ ol{
         object-fit: cover;
         background-image: /*linear-gradient(270deg, #abb9b661, #19d09048, #7e19d05b, #d011114d) ,*/url(./images/bkosijek.png);
         height: 32.5rem;
-        -webkit-animation: AnimationName 25s ease infinite;
-        -moz-animation: AnimationName 25s ease infinite;
-        animation: AnimationName 25s ease infinite;
+        -webkit-animation: LeftToRight 35s ease infinite;
+        -moz-animation: LeftToRight 35s ease infinite;
+        animation: LeftToRight 35s ease infinite;
     }
     
     .box-service-animation{
@@ -499,9 +412,9 @@ ol{
         object-fit: cover;
         background-image: /*linear-gradient(270deg, #abb9b661, #19d09048, #7e19d05b, #d011114d),*/url(./images/box.jpg);
         height: 31rem;
-        -webkit-animation: AnimationName 45s ease infinite;
-        -moz-animation: AnimationName 45s ease infinite;
-        animation: AnimationName 45s ease infinite;
+        -webkit-animation: LeftToRight 35s ease infinite;
+        -moz-animation: LeftToRight 35s ease infinite;
+        animation: LeftToRight 35s ease infinite;
     }
 
     #service-list li{
@@ -515,6 +428,48 @@ ol{
     .display{
         display: none;
     }
+
+    .hamburger-button{
+        display: inline;
+        height: 200px;
+        font-size: 3rem;
+    }
+
+    .displayMobile{
+        display: inline;
+    }
+
+    .mobile-nav{
+        height: 100vh;
+    }
+
+    .mobile-nav a{
+            display: block;
+            margin: 0 auto 3rem;
+            text-align: center;
+            width: fit-content;
+            color: rgb(25, 25, 25);
+            text-decoration: none;
+    }
+
+    .contact-row-input{
+        width: 90%;
+        border: black solid;
+        border-width: 2px;
+    }
+    
+    textarea{
+        width: 90%;
+        border: black solid;
+        border-width: 2px;
+        height: 7rem;
+    }
+    
+    .contact-row-label{
+        font-size: 1.375rem;
+        margin-top: 2rem;
+    }
+    
 
 
 }
@@ -538,7 +493,7 @@ ol{
 }
 
     .about-container-vh{
-        height: 95rem;
+        height: 80rem;
         margin-bottom: 3rem;
     }
 
@@ -553,12 +508,13 @@ ol{
     }
 
     .services-container-vh{
-        height: 78.2rem;
+        height: 158.2rem;
     }
 
     .me{
         height: 25rem;
         margin-bottom: 1.5rem;
+        margin-left: 3.75rem;
     }
 
     .boxing-me{
@@ -598,6 +554,55 @@ ol{
     .talk-section-text{
         font-size: 1.375rem;
     }
+    
+    .talk-section-text{
+        font-size: 1.375rem;
+    }
+
+    .front-container{
+        margin-left: -10rem; 
+        margin-top: 0.25rem;
+      }
+
+    .text{
+        font-size: 1.2rem;
+    }
+    .service-container-between{
+      margin-right: 0rem;
+      }
+
+      .serviceContainer{
+        position: relative;
+        border:#121212 solid 0.125rem;
+        height: 35rem;
+        width: 20.9rem;
+        overflow: hidden;
+        border-radius: 0 0 1rem 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .web-service-animation{
+        max-width: 101%;
+        width: auto;
+        border-top: rgba(0, 0, 0, 0.245) solid 0.125rem;
+        object-fit: cover;
+        background-image: /*linear-gradient(270deg, #abb9b661, #19d09048, #7e19d05b, #d011114d) ,*/url(./images/bkosijek.png);
+        height: 32.5rem;
+        -webkit-animation: LeftToRight 35s ease infinite;
+        -moz-animation: LeftToRight 35s ease infinite;
+        animation: LeftToRight 35s ease infinite;
+    }
+    
+    .box-service-animation{
+        max-width: 101;
+        width: auto;
+        object-fit: cover;
+        background-image: /*linear-gradient(270deg, #abb9b661, #19d09048, #7e19d05b, #d011114d),*/url(./images/box.jpg);
+        height: 31rem;
+        -webkit-animation: LeftToRight 35s ease infinite;
+        -moz-animation: LeftToRight 35s ease infinite;
+        animation: LeftToRight 35s ease infinite;
+    }
 
 
 }
@@ -611,7 +616,7 @@ ol{
   }
 
   h1{
-      font-size: 6rem;
+      font-size: 5.2rem;
   }
 
   .gears{
@@ -621,12 +626,12 @@ ol{
 }
 
     .about-container-vh{
-        height: 90rem;
+        height: 80rem;
         margin-bottom: 3rem;
     }
 
     .text{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .logo{
@@ -636,12 +641,13 @@ ol{
     }
 
     .services-container-vh{
-        height: 78.2rem;
+        height: 158.2rem;
     }
 
     .me{
         height: 25rem;
         margin-bottom: 1.5rem;
+        margin-left: 5.3rem;
     }
 
     .boxing-me{
@@ -682,6 +688,21 @@ ol{
         font-size: 1.375rem;
     }
 
+    
+    .serviceContainer{
+        position: relative;
+        border:#121212 solid 0.125rem;
+        height: 38rem;
+        width: 20.9rem;
+        overflow: hidden;
+        border-radius: 0 0 1rem 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .front-container{
+        margin-left: -12rem; 
+        margin-top: 0.25rem;
+      }
 
 }
 
@@ -697,18 +718,19 @@ ol{
       font-size: 6rem;
   }
 
-  .gears{
-    width: 22rem;
-    margin-left: 8rem;
-    margin-top: 3.5rem;
+  
+  .me{
+    height: 32rem;
+    margin-bottom: 1.5rem;
+    margin-left: 5.1rem;
 }
 
     .about-container-vh{
-        height: 86rem;
+        height: 82.5rem;
     }
 
     .text{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .logo{
@@ -718,7 +740,7 @@ ol{
     }
 
     .services-container-vh{
-        height: 78.2rem;
+        height: 158.2rem;
     }
 
     .boxing-me{
@@ -750,6 +772,21 @@ ol{
         font-size: 1.5rem;
     }
 
+    .serviceContainer{
+        position: relative;
+        border:#121212 solid 0.125rem;
+        height: 38rem;
+        width: 25rem;
+        overflow: hidden;
+        border-radius: 0 0 1rem 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .front-container{
+        margin-left: -14rem; 
+        margin-top: 0.25rem;
+      }
+
 
 }
 
@@ -761,17 +798,28 @@ ol{
   }
 
   h1{
-    font-size: 5.5rem;
+    font-size: 5rem;
 }
 
-.gears{
-  width: 22rem;
-  margin-left: 0rem;
-  margin-top: 13rem;
+.front-container{
+    margin-left: -19rem; 
+    margin-top: 0.25rem;
 }
+
+
+.serviceContainer{
+    position: relative;
+    border:#121212 solid 0.125rem;
+    height: 38rem;
+    width: 25rem;
+    overflow: hidden;
+    border-radius: 0 0 1rem 1rem;
+    margin-bottom: 10rem;
+}
+
 
   .about-container-vh{
-      height: 70rem;
+      height: 76.5rem;
   }
 
   .text{
@@ -785,13 +833,13 @@ ol{
   }
 
   .services-container-vh{
-      height: 78.2rem;
+      height: 158.2rem;
   }
 
   .me{
-      height: 33rem;
+      height: 30rem;
       margin-top: 8rem;
-      margin-left: -5rem;
+      margin-left: -4rem;
   }
 
   .boxing-me{
@@ -832,8 +880,13 @@ ol{
       height: 45rem;
   }
 
+  .front-container{
+    margin-left: -26.5rem;
+    margin-top: 0.25rem;
+  }
+
   .about-container{
-      height: 54rem;
+      height: 66rem;
   }
 
   .me{
@@ -847,8 +900,25 @@ ol{
 }
 
 .services-container-vh{
-    height: 45rem;
+    height: 100rem;
 }
+
+
+.display{
+    display: flex;
+}
+
+.displayMobile{
+    display: none;
+}
+
+.service-container-between{
+    margin-right: 5rem;
+    }
+textarea{
+    width: 46.5rem;
+}
+
 
 }
 
@@ -909,8 +979,6 @@ ol{
       }
   
       .text-mobile{
-        margin-left: auto;
-        margin-right: auto;
         width: 25rem;
       }
   
@@ -956,9 +1024,9 @@ ol{
         object-fit: cover;
         background-image: /*linear-gradient(270deg, #abb9b661, #19d09048, #7e19d05b, #d011114d) ,*/url(./images/bkosijek.png);
         height: 32rem;
-        -webkit-animation: AnimationName 25s ease infinite;
-        -moz-animation: AnimationName 25s ease infinite;
-        animation: AnimationName 25s ease infinite;
+        -webkit-animation: LeftToRight 35s ease infinite;
+        -moz-animation: LeftToRight 35s ease infinite;
+        animation: LeftToRight 35s ease infinite;
     }
     
     .box-service-animation{
@@ -967,9 +1035,9 @@ ol{
         object-fit: cover;
         background-image: /*linear-gradient(270deg, #abb9b661, #19d09048, #7e19d05b, #d011114d),*/url(./images/box.jpg);
         height: 32rem;
-        -webkit-animation: AnimationName 45s ease infinite;
-        -moz-animation: AnimationName 45s ease infinite;
-        animation: AnimationName 45s ease infinite;
+        -webkit-animation: LeftToRight 35s ease infinite;
+        -moz-animation: LeftToRight 35s ease infinite;
+        animation: LeftToRight 35s ease infinite;
     }
 
     .services-align{
@@ -985,8 +1053,32 @@ ol{
         }
 
     .display{
-        display: inline;
+        display: flex;
     }
+
+    .displayMobile{
+        display: none;
+    }
+
+    .contact-row-input{
+        width: 25rem;
+        border: black solid;
+        border-width: 2px;
+    }
+    
+    textarea{
+        width: 59.5rem;
+        height: 6rem;
+        border: black solid;
+        border-width: 2px;
+    }
+    
+    .contact-row-label{
+        font-size: 1.375rem;
+        margin-top: 2rem;
+    }
+    
+
 
   
 
