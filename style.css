@@ -443,7 +443,6 @@ h1{
     }
 
     .mobile-nav{
-        height: 100vh;
     }
 
     .mobile-nav a{
@@ -1100,6 +1099,10 @@ textarea{
         color: white;
         font-size: 1.125rem;
     }
+
+    footer a{
+        display:inline;
+       }
 
     footer img{
         display: block;
