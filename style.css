@@ -282,15 +282,6 @@ h1{
     display:none;
 }
 
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
-
 
 
 
@@ -301,7 +292,7 @@ h1{
         margin-bottom: 7rem;
     }
     .container-vh{
-  height: 28rem;
+  height: 29.5rem;
   }
 
   .title-up{
@@ -309,7 +300,7 @@ h1{
 }
 
   h1{
-      font-size: 3.85rem;
+      font-size: 4.1rem;
   }
 
   .title{
