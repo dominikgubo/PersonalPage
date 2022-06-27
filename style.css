@@ -19,8 +19,8 @@
 body{
     /*font-family: 'Chakra Petch', sans-serif;*/
     /*font-family: 'Bitter', serif;*/
-    font-family: 'Montserrat', sans-serif;
-    /*font-family: 'Inter', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Inter', sans-serif;
 }
 
 .container-vh{
@@ -46,8 +46,8 @@ body{
 ul{
     /*font-family: 'Chakra Petch', sans-serif;*/
     /*font-family: 'Bitter', serif;*/
-    font-family: 'Montserrat', sans-serif;
-    /*font-family: 'Inter', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Inter', sans-serif;
     list-style-type: none;
 }
 
@@ -282,6 +282,16 @@ h1{
     display:none;
 }
 
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
 
 
 @media (min-width: 360px){
@@ -335,7 +345,9 @@ h1{
     .me{
         height: 25rem;
         margin-bottom: 2rem;
-        margin-left: 2rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .boxing-me{
@@ -391,7 +403,7 @@ h1{
         position: relative;
         border:#121212 solid 0.125rem;
         height: 31rem;
-        width: 20.9rem;
+        width: 20rem;
         overflow: hidden;
         border-radius: 0 0 1rem 1rem;
         margin-bottom: 10rem;
@@ -421,7 +433,7 @@ h1{
     }
 
     #service-list li{
-        font-size: 1.125rem;
+        font-size: 1.0rem;
     }
 
     .services-align{
@@ -528,7 +540,9 @@ h1{
     .me{
         height: 25rem;
         margin-bottom: 1.5rem;
-        margin-left: 3.75rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .boxing-me{
@@ -618,6 +632,10 @@ h1{
         animation: LeftToRight 35s ease infinite;
     }
 
+    #service-list li{
+        font-size: 1.075rem;
+    }
+
 
 }
 
@@ -661,7 +679,9 @@ h1{
     .me{
         height: 25rem;
         margin-bottom: 1.5rem;
-        margin-left: 5.3rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .boxing-me{
@@ -736,7 +756,9 @@ h1{
   .me{
     height: 32rem;
     margin-bottom: 1.5rem;
-    margin-left: 5.1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
     .about-container-vh{
@@ -976,7 +998,7 @@ textarea{
       }
   
       .services-container-vh{
-          height: 104rem;
+          height: 92rem;
       }
   
       .boxing-me{
