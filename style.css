@@ -285,7 +285,8 @@ h1{
 }
 
 
-@media(max-width: 576px){
+
+@media(max-width: 600px){
     .p-left{
         padding-left: 7%;
     }
@@ -334,7 +335,7 @@ h1{
 
     .logo{
         width: 4rem;
-        margin-right: 4rem;
+        margin-right: 3.25rem;
         margin-top: 3.5rem;
     }
 
@@ -520,7 +521,7 @@ h1{
 
 
     .about-container-vh{
-        height: 80rem;
+        height: 81.5rem;
         margin-bottom: 3rem;
     }
 
@@ -530,7 +531,7 @@ h1{
 
     .logo{
         width: 4rem;
-        margin-right: 5rem;
+        margin-right: 4.5rem;
         margin-top: 3.5rem;
     }
 
@@ -659,7 +660,7 @@ h1{
 }
 
     .about-container-vh{
-        height: 80rem;
+        height: 81.5rem;
         margin-bottom: 3rem;
     }
 
@@ -669,7 +670,7 @@ h1{
 
     .logo{
         width: 4rem;
-        margin-right: 6rem;
+        margin-right: 5.5rem;
         margin-top: 3.5rem;
     }
 
@@ -763,7 +764,7 @@ h1{
 }
 
     .about-container-vh{
-        height: 82.5rem;
+        height: 85.5rem;
     }
 
     .text{
