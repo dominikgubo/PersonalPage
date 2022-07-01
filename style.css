@@ -296,6 +296,220 @@ h1{
 
 }
 
+@media (max-width: 359px){
+
+    .lesser-size{
+        font-size: 0.8rem;
+    }
+    .nav-height{
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .container-vh{
+  height: 32rem;
+  }
+
+  .title-up{
+    margin-top: -7rem;
+}
+
+  h1{
+      font-size: 4.1rem;
+  }
+
+  .title{
+      font-size: 2.7rem;
+  }
+
+  .gears{
+    width: 12.5em;
+    margin-left: 7.5rem;
+    margin-top: 0rem;
+}
+
+    .about-container-vh{
+        height: 85rem;
+        margin-bottom: 3rem;
+    }
+
+    .text{
+        font-size: 1.2rem;
+    }
+
+    .logo{
+        width: 4rem;
+        margin-right: 3.25rem;
+        margin-top: 3.5rem;
+    }
+
+    .services-container-vh{
+        height: 150rem;
+    }
+    
+
+    .me{
+        height: 25rem;
+        margin-bottom: 2rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .boxing-me{
+        height: 14rem;
+    }
+
+    .form-font{
+        font-size: 2rem;
+    }
+
+    .li-form{
+        margin-bottom: 3rem;
+        margin-left: -0.6rem;
+
+    }
+
+    
+
+    .description-text{
+        font-size: 1.5rem;
+    }
+
+    .textarea-mobile{
+        width: 17.3rem;
+    }
+
+    .text-mobile{
+        width: 17.3rem;
+    }
+
+    .nav-item{
+        font-size: 1rem;
+    }
+
+    .form-font{
+        font-size: 1rem;
+    }
+
+    .talk-section-text{
+        font-size: 1.375rem;
+    }
+
+    .front-container{
+        margin-left: -7rem; 
+        margin-top: 0.25rem;
+      }
+
+    .service-container-between{
+      margin-right: 0rem;
+      }
+
+      .serviceContainer{
+        position: relative;
+        border:#121212 solid 0.125rem;
+        height: 31rem;
+        width: 20rem;
+        overflow: hidden;
+        border-radius: 0 0 1rem 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .web-service-animation{
+        max-width: 101%;
+        width: auto;
+        border-top: rgba(0, 0, 0, 0.245) solid 0.125rem;
+        object-fit: cover;
+        background-image: /*linear-gradient(270deg, #abb9b661, #19d09048, #7e19d05b, #d011114d) ,*/url(./images/bkosijek.png);
+        height: 32.5rem;
+        -webkit-animation: LeftToRight 28s ease infinite;
+        -moz-animation: LeftToRight 28s ease infinite;
+        animation: LeftToRight 28s ease infinite;
+    }
+    
+    .box-service-animation{
+        max-width: 101;
+        width: auto;
+        object-fit: cover;
+        background-image: /*linear-gradient(270deg, #abb9b661, #19d09048, #7e19d05b, #d011114d),*/url(./images/box.jpg);
+        height: 31rem;
+        -webkit-animation: LeftToRight 28s ease infinite;
+        -moz-animation: LeftToRight 28s ease infinite;
+        animation: LeftToRight 28s ease infinite;
+    }
+
+    #service-list li{
+        font-size: 1.0rem;
+    }
+
+    .services-align{
+        text-align: center;
+    }
+
+    .display{
+        display: none;
+    }
+
+    .hamburger-button{
+        display: inline;
+        font-size: 1.6rem;
+    }
+
+    .displayMobile{
+        display: inline;
+    }
+
+    .mobile-nav{
+    }
+
+    .mobile-nav a{
+            display: block;
+            margin: 0 auto 3rem;
+            text-align: center;
+            width: fit-content;
+            color: rgb(25, 25, 25);
+            text-decoration: none;
+    }
+
+    .contact-row-input{
+        width: 100%;
+        border: rgb(136, 136, 136) solid;
+        border-width: 1px;
+        height: 2.5rem;
+    }
+    
+    textarea{
+        width: 100%;
+        border: black solid;
+        border-width: 2px;
+        height: 7rem;
+    }
+    
+    .contact-row-label{
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    footer{
+        background-color: #121212;
+        position: bottom;
+        height: 10rem;
+        color: white;
+        font-size: 0.75rem;
+    }
+
+    footer img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5rem;
+        padding-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+
+
+}
+
 @media (min-width: 360px){
 
     .nav-height{
