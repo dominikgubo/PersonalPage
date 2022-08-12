@@ -1373,9 +1373,4 @@ textarea{
 
 }
 
-@supports (-webkit-touch-callout: none) {
-    .submit-button::before{
-        content: "Submit";
-    }
-  }
 
